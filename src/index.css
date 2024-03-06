@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  background-color: rgb(215, 215, 215);
+}
+
+.calculator-container {
+  min-height: 60vh;
+  min-width: 75vh;
+}
+
+.button-centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-container {
+  -webkit-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.75);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.button-container {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -webkit-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.75);
+}
+
+#root {
+  width: 100%;
+  display: flex;
+}
+
+.calculator-header {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.title {
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.caption {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.button-label {
+  color: orange;
+}
+
+.btn {
+  font-size: 20px;
+  width: 20%;
+}
